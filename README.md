@@ -198,17 +198,16 @@ LIBS += -LD:/env/libtorch201cpu/libtorch/lib
 
 ---
 
-## 依赖关系
+## 感谢开源
 
 ```
-AIFlow
- ├── QtNodes (动态库, ../output/QNodes/)
+ QtNodes (动态库, ../output/QNodes/)
  https://github.com/paceholder/nodeeditor
- ├── OpenCV 5.0.0
+ OpenCV 5.0.0
  https://github.com/opencv/opencv
- ├── LibTorch (CPU)
+ LibTorch (CPU)
  https://pytorch.org/
- ├── 模型训练
+ 模型训练
  https://github.com/AllentDan/LibtorchDetection
 
 ```
