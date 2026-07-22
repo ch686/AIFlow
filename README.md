@@ -203,14 +203,16 @@ LIBS += -LD:/env/libtorch201cpu/libtorch/lib
 ```
 AIFlow
  ├── QtNodes (动态库, ../output/QNodes/)
+ https://github.com/paceholder/nodeeditor
  ├── OpenCV 5.0.0
- ├── LibTorch 2.0.1 (CPU)
- ├── QCustomPlot (源码内置)
- └── Qt 5.12.12 (Widgets / SQL / PrintSupport)
+ https://github.com/opencv/opencv
+ ├── LibTorch (CPU)
+ https://pytorch.org/
+ ├── 模型训练
+ https://github.com/AllentDan/LibtorchDetection
+
 ```
 
 ---
 
-## 许可证
 
-私有项目，版权所有。
