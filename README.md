@@ -126,20 +126,6 @@ AIFlow/
 3. **LibTorch 2.0.1 CPU**，默认路径 `D:/env/libtorch201cpu/libtorch`
 4. **QNodes 节点库**，需先编译同级目录 `../QNodes`，输出至 `../output/QNodes/`
 
-### 编译步骤
-
-```bash
-# 1. 编译 QNodes 依赖库（首次）
-cd ../QNodes
-qmake QNodes.pro
-jom release      # 或 nmake / mingw32-make
-
-# 2. 编译 AIFlow
-cd ../AIFlow
-qmake AIFlow.pro
-jom release
-```
-
 ### 路径配置
 
 若你的 OpenCV / LibTorch 安装路径不同，修改 `AIFlow.pro` 中的：
@@ -155,8 +141,7 @@ LIBS += -LD:/env/libtorch201cpu/libtorch/lib
 | 宏 | 作用 |
 |----|------|
 | `USE_CVDNN` | 使用 OpenCV DNN + ONNX 推理（默认使用 LibTorch + TorchScript） |
-| `CV_CUDA` | 启用 OpenCV CUDA 加速（需 CUDA 版 OpenCV） |
-| `NODE_EDITOR_SHARED` | 以动态库方式链接 QtNodes |
+
 
 ---
 
