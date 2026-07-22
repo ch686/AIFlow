@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>res/arrow_selector_tool_48dp_E3E3E3_FILL0_wght400_GRAD0_opsz48.svg</file>
+        <file>res/back_hand_48dp_E3E3E3_FILL0_wght400_GRAD0_opsz48.svg</file>
+        <file>res/QNodeTest.ico</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>res/style.qss</file>
+    </qresource>
+</RCC>
